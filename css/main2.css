@@ -30,9 +30,9 @@ body {
         background-size: cover;
         background-position: center;
         color: #fff;
-        /* position: absolute; */
-        /* top: 30px;
-        bottom: 30px; */
+        position: absolute;
+        top: 30px;
+        bottom: 30px;
     }
         .container > .left > h1 {
             display: inline-block;
@@ -63,7 +63,7 @@ body {
         float: left;
         padding: 60px;
         background-color: #fff;
-        /* position: relative; */
+        position: relative;
     }
     .x {
         display: inline-block;
