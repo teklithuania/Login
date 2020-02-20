@@ -1,3 +1,11 @@
 .btn {
     display: inline-block;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #02B890;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
 }

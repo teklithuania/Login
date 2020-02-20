@@ -1,7 +1,7 @@
-form {
-display: inline-block;
-width: 100%;
-}
+    form {
+        display: inline-block;
+        width: 100%;
+    }
     form > .form-row {
         display: inline-block;
         width: 100%;
@@ -14,10 +14,10 @@ width: 100%;
             display: inline-block;
             width: 100%;
             margin-bottom: 5px;
-            color: #777;
+            color: #777777;
             text-transform: uppercase;
             font-weight: bold;
-            font-size: 14px;
+            font-size: 15px;
             line-height: 20px;
         }
         form > .form-row > input {
@@ -26,17 +26,18 @@ width: 100%;
             font-size: 20px;
             line-height: 30px;
             border: none;
-            border-bottom: 2px solid #ccc;
+            border-bottom: 4px solid #ccc;
         }
-        form > .form-row > span {
+        form > .form-row > a {
             display: inline-block;
             padding: 5px;
             margin-left: 20px;
             margin-right: 20px;
             font-size: 20px;
             line-height: 30px;
+            text-decoration: none;
         }
-        form > .form-row > a {
+        form > .form-row > span {
             display: inline-block;
             padding: 5px;
             font-size: 20px;

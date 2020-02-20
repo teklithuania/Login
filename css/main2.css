@@ -1,0 +1,79 @@
+body {
+    background-color: #cccccc;
+}
+.background {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    background-image: url(..//img/bubbles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(15px);
+}
+.container {
+    display: inline-block;
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: yellow;
+}
+    .container > .left {
+        display: inline-block;
+        width: 35%;
+        float: left;
+        background-color: #36f;
+        background-image: url(..//img/bubbles.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        /* position: absolute; */
+        /* top: 30px;
+        bottom: 30px; */
+    }
+        .container > .left > h1 {
+            display: inline-block;
+            width: 100%;
+            padding: 100px;
+            padding-bottom: 5px;
+            text-align: center;
+            font-size: 55px;
+            font-weight: lighter;
+        }
+        .container > .left > p {
+            display: inline-block;
+            width: 100%;
+            padding-top: 5px;
+            padding-bottom: 200px;
+            text-align: center;
+        }
+            .container > .left > footer > .Checkbox {
+                display: inline-block;
+                margin-left: 35%;
+                width: 30%;
+                margin-bottom: 100px;
+                cursor: pointer;
+            }
+    .container > .right {
+        display: inline-block;
+        width: 60%;
+        float: left;
+        padding: 60px;
+        background-color: #fff;
+        /* position: relative; */
+    }
+    .x {
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: right;
+        font-size: 30px;
+        line-height: 15px;
+        color: white;
+    }
