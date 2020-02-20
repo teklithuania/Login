@@ -1,0 +1,30 @@
+body {
+    background-color: #cccccc;
+}
+.background {
+}
+.container {
+    display: inline-block;
+    width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    .container > .left {
+   
+    }
+        .container > .left > h1 {
+      
+        }
+        .container > .left > p {
+       
+            }.container > .left > .Checkbox {
+
+            }
+    .container > .right {
+
+    }
+    .x {
+
+    }
