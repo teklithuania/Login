@@ -31,8 +31,6 @@ body {
         background-position: center;
         color: #fff;
         position: absolute;
-        /* top: 30px;
-        bottom: 30px; */
     }
         .container > .left > h1 {
             display: inline-block;
@@ -75,5 +73,5 @@ body {
         text-align: right;
         font-size: 30px;
         line-height: 15px;
-        color: white;
+        color:burlywood;
     }
