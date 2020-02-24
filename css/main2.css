@@ -73,8 +73,34 @@ body {
         position: absolute;
         top: 0;
         right: 0;
-        text-align: right;
+        /* text-align: right;
         font-size: 30px;
         line-height: 15px;
-        color:burlywood;
+        color:burlywood; */
+    }
+    .x::before {
+        display: inline-block;
+                content: '';
+                width: 10px;
+                height: 2px;
+                top:0;
+                right: 0;
+                background-color: grey;
+                position: absolute;
+                top: 50%;
+                bottom: 50%;
+                transform: translate(-50%, -50%) rotate(45deg)
+    }
+    .x::after {
+        display: inline-block;
+                content: '';
+                width: 10px;
+                height: 2px;
+                top: 0;
+                right: 0;
+                background-color: grey;
+                position: absolute;
+                top: 50%;
+                bottom: 50%;
+                transform: translate(-50%, -50%) rotate(-45deg)
     }

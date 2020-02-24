@@ -1,4 +1,4 @@
-.btn {
+.form-row > .btn {
     display: inline-block;
     padding: 5px;
     padding-left: 40px;
@@ -8,4 +8,8 @@
     line-height: 30px;
     border-radius: 20px;
     cursor: pointer;
+    background: -moz-linear-gradient(-45deg,  #bfd255 0%, #8eb92a 30%, #72aa00 65%, #9ecb2d 100%);
+    background: -webkit-linear-gradient(-45deg,  #bfd255 0%,#8eb92a 30%,#72aa00 65%,#9ecb2d 100%);
+    background: linear-gradient(135deg,  #bfd255 0%,#8eb92a 30%,#72aa00 65%,#9ecb2d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=1 );
 }
