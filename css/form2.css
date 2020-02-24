@@ -7,7 +7,7 @@
         width: 100%;
         margin-bottom: 30px;
     }
-        form > .form-row: :last-of-type {
+        form > .form-row :last-of-type {
             margin-bottom: 0;
         }
         form > .form-row > label {
